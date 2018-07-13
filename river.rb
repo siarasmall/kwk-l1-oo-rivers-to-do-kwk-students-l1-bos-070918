@@ -7,7 +7,7 @@ class River
   end #defini
   
   def flood
-    @discharge = @dishcharge.to_i * 1.3
+    @discharge = @discharge.to_i * 1.3
   end 
   
   def dry_up
