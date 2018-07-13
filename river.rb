@@ -9,5 +9,9 @@ class Rivers
   def flood
     @discharge = @dishcharge. to_i * 1.3
   end 
+  
+  def dry_up
+    @discharge = @discharge.to_i / 2
+  end 
     
 end 
