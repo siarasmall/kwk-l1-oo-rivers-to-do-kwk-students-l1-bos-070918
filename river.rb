@@ -2,8 +2,11 @@
 class Rivers
   attr_accessor :name, :length, :countries, :discharge
   
-  def initialize(name)
+  def initialize(name, length, countries, discharge)
     @name = name
+    @length = length
+    @countries = countries
+    @discharge = discharge
   end #defini
   
   def flood
