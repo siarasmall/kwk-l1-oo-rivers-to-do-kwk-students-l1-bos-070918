@@ -7,11 +7,11 @@ class Rivers
   end #defini
   
   def flood
-    @discharge = @dishcharge. to_i * 1.3
+    @discharge = @dishcharge * 1.3
   end 
   
   def dry_up
-    @discharge = @discharge.to_i / 2
+    @discharge = @discharge / 2
   end 
     
 end 
